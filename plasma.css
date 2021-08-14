@@ -1,0 +1,81 @@
+body{
+    background: rgb(242,48,0);
+    background: linear-gradient(90deg, rgba(242,48,0,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 64%, rgba(5,105,19,1) 100%);
+}
+.heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.75%;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.heading h6{
+    padding-top: 25px;
+    font-size: 18px;
+}
+.doreform{
+    width:50%;
+    height: 120%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 10px;
+    font-weight: bolder;
+    
+    background: rgb(189,129,229);
+    box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+-webkit-box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+-moz-box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+    background: linear-gradient(90deg, rgba(189,129,229,1) 0%, rgba(239,111,111,1) 50%, rgba(244,143,72,1) 100%);
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 30px;
+    
+    
+}
+.data label{
+    text-align: left;
+    font-weight: bolder;
+}
+.data input,select{
+    margin-left: 25%;
+    
+}
+.btsubmit{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    margin-left: 8%;
+    
+    
+}
+.btsubmit #donate,#request{
+    transition: .5s;
+    width: 150px;
+}
+.btsubmit #donate:hover{
+    background-color: green;
+    font-weight: bold;
+    border-color: black;
+    box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+}
+
+.btsubmit #request:hover{
+    background-color:deepskyblue;
+    font-weight: bold;
+    border-color: black;
+    box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 16px 24px 2px rgba(0,0,0,0.63);
+}
